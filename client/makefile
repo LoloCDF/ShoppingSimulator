@@ -1,12 +1,12 @@
 ##################################
-# Compila y ejecuta              #
+# Compilation and execution      #
 ##################################
 
 runandcomp:
 	make comp && make exe
 
 ##################################
-# Compila ShoppingSimulator      #
+# Compilation ShoppingSimulator  #
 ##################################
 
 comp:
@@ -14,7 +14,7 @@ comp:
 	jar cvfe ShoppingSimulator.jar ShoppingSimulator.Main -C build ShoppingSimulator
 
 ##################################
-# Ejecuta ShoppingSimulator      #
+# Execution ShoppingSimulator    #
 ##################################
 exe:
-	java -Djava.security.policy=server.policy -Djava.net.preferIPv4Stack=true -jar ShoppingSimulator.jar
+	java -cp ../common/ShoppingSimulatorCommon.jar:ShoppingSimulator.jar -Djava.security.policy=server.policy -Djava.net.preferIPv4Stack=true ShoppingSimulator.Main

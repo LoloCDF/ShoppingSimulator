@@ -10,7 +10,7 @@ class Main  {
         }
         try {
             RemoteShopImpl srv = new RemoteShopImpl();
-            Naming.rebind("rmi://localhost:8888/ShoppingSimulator.Communication.RemoteShop", srv);
+            Naming.rebind("rmi://localhost:8888/RemoteShop", srv);
         }
         catch (RemoteException e) {
             System.err.println(new String("Communication error: ").concat(e.toString()));

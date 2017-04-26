@@ -1,6 +1,7 @@
 package ShoppingSimulator.Communication;
 
 import ShoppingSimulator.Common.Product;
+import ShoppingSimulator.Common.RemoteShop;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
@@ -18,7 +19,7 @@ public class Communication {
 
         try {
             shop = (RemoteShop) Naming.lookup(new String("//").concat(
-                    remoteHost.concat(":8888/ShoppingSimulator.Communication.RemoteShop")));
+                    remoteHost.concat(":8888/RemoteShop")));
         }
         catch (RemoteException e) {
             System.err.println("Error de comunicacion: " + e.toString());
@@ -38,5 +39,39 @@ public class Communication {
         }
 
         return  products;
+    }
+
+    public boolean login(String name){
+        boolean result = false;
+
+        try {
+            result = shop.login(name);
+        } catch (RemoteException e){
+            e.printStackTrace();
+        }
+
+        return result;
+    }
+
+    public List<Product> getMyProducts(String name){
+        List<Product> products = null;
+        try {
+            products = shop.getMyProducts(name);
+        } catch (RemoteException e){
+            e.printStackTrace();
+        }
+
+        return  products;
+    }
+
+    public boolean buy(String name, List<Product> products){
+        boolean result = false;
+        try {
+            result = shop.buy(name, products);
+        } catch (RemoteException e){
+            e.printStackTrace();
+        }
+
+        return  result;
     }
 }

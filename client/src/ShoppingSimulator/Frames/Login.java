@@ -1,5 +1,7 @@
 package ShoppingSimulator.Frames;
 
+import ShoppingSimulator.Communication.Communication;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -14,8 +16,12 @@ public class Login extends JFrame {
     private JTextField username = null;
     private JButton submit = null;
 
+    private Communication commu = null;
+
     public Login() {
         super("ShoppingSimulator: Login (Proyecto SSDD)");
+
+        commu = new Communication("localhost");
 
         setLayout(new BorderLayout());
 
@@ -78,13 +84,25 @@ public class Login extends JFrame {
 
     private class SendInformation implements ActionListener{
         public void actionPerformed(ActionEvent e){
-            Shop shopping = new Shop();
-            shopping.setSize(1080,720);
-            shopping.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            shopping.setVisible(true);
+            boolean result = false;
 
-            setVisible(false);
-            dispose();
+            result = commu.login(username.getText());
+
+            if(result) {
+                Shop shopping = new Shop(username.getText());
+                shopping.setSize(1080, 720);
+                shopping.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                shopping.setVisible(true);
+                setVisible(false);
+                dispose();
+            } else {
+                JOptionPane optionPane = new JOptionPane(
+                        "Login failed, please check password and connectivity",
+                        JOptionPane.ERROR_MESSAGE,
+                        JOptionPane.DEFAULT_OPTION);
+                JDialog dialog = optionPane.createDialog(new String("ERROR"));
+                dialog.setVisible(true);
+            }
         }
     }
 }

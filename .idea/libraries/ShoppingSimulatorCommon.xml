@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ShoppingSimulatorCommon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/common/ShoppingSimulatorCommon.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

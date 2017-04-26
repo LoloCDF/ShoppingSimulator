@@ -5,7 +5,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,10 +26,13 @@ public class Shop extends JFrame {
 
     private Communication commun = null;
 
-    public Shop (){
+    private String name = null;
+
+    public Shop (String name){
         super("ShoppingSimulator: Shop(Proyecto SSDD)");
 
         setLayout(new BorderLayout());
+        this.name = name;
 
         // Init communications
         commun = new Communication("localhost");
@@ -46,6 +48,7 @@ public class Shop extends JFrame {
 
         // Preparing "My products" panel
         pmyproducts = new JPanel();
+        myproducts = commun.getMyProducts(name);
         pcontainer = new ItemContainer(myproducts);
         pmyproducts.add(pcontainer);
 
@@ -151,7 +154,7 @@ public class Shop extends JFrame {
             productDescription.setSize(800,600);
             JOptionPane optionPane = new JOptionPane(
                     productDescription,
-                    JOptionPane.QUESTION_MESSAGE,
+                    JOptionPane.PLAIN_MESSAGE,
                     JOptionPane.YES_NO_OPTION);
             JDialog dialog = optionPane.createDialog(new String("Do you wish to continue buying ")
                     .concat(products.get(e.getButton()).getName().concat("?")));
@@ -183,15 +186,27 @@ public class Shop extends JFrame {
 
     private class BuyClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
-            cartstate.setText("Number of products in my cart: 0");
 
-            int nproducts = cart.size();
+            boolean result = commun.buy(name,cart);
 
-            for(int i = nproducts-1; i >=0 ; i--){
-                myproducts.add(cart.get(i));
-                pcontainer.addItem(cart.get(i));
-                pcontainer.refresh();
-                cart.remove(i);
+            if(result) {
+                cartstate.setText("Number of products in my cart: 0");
+
+                int nproducts = cart.size();
+
+                for (int i = nproducts - 1; i >= 0; i--) {
+                    myproducts.add(cart.get(i));
+                    pcontainer.addItem(cart.get(i));
+                    pcontainer.refresh();
+                    cart.remove(i);
+                }
+            } else {
+                JOptionPane optionPane = new JOptionPane(
+                        "Failed to buy, please check your connection and try again later.",
+                        JOptionPane.ERROR_MESSAGE,
+                        JOptionPane.DEFAULT_OPTION);
+                JDialog dialog = optionPane.createDialog("ERROR");
+                dialog.setVisible(true);
             }
         }
 

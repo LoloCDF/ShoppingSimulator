@@ -17,7 +17,7 @@ comp:
 # Ejecuta ShoppingSimulator      #
 ##################################
 exe:
-	java -Djava.security.policy=server.policy  -Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=localhost -jar ShoppingSimulatorServer.jar
+	java -cp ../common/ShoppingSimulatorCommon.jar:ShoppingSimulatorServer.jar -Djava.security.policy=server.policy  -Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=localhost ShoppingSimulator.Main
 
 
 rmiexe:
