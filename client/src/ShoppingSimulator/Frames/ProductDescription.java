@@ -2,11 +2,10 @@ package ShoppingSimulator.Frames;
 
 import ShoppingSimulator.Common.Product;
 
-import javax.security.auth.callback.Callback;
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.net.URL;
 
 public class ProductDescription extends JPanel {
     private Product product = null;
@@ -32,14 +31,19 @@ public class ProductDescription extends JPanel {
         description.setSize(150,200);
         add(description,BorderLayout.CENTER);
 
+        try {
+            URL url = new URL(product.getThumbnail());
+            Image image = ImageIO.read(url);
 
-        JLabel thumbnail = new JLabel(new ImageIcon(product.getThumbnail()
-                .getScaledInstance(200, 200, Image.SCALE_SMOOTH)));
-        thumbnail.setPreferredSize(new Dimension(300, 300));
-        thumbnail.setHorizontalAlignment(SwingConstants.CENTER);
-        thumbnail.setVerticalAlignment(SwingConstants.TOP);
-        add(thumbnail,BorderLayout.LINE_START);
-
+            JLabel thumbnail = new JLabel(new ImageIcon(image
+                    .getScaledInstance(200, 200, Image.SCALE_SMOOTH)));
+            thumbnail.setPreferredSize(new Dimension(300, 300));
+            thumbnail.setHorizontalAlignment(SwingConstants.CENTER);
+            thumbnail.setVerticalAlignment(SwingConstants.TOP);
+            add(thumbnail, BorderLayout.LINE_START);
+        } catch (Exception e){
+            System.err.println("Cannot get image from url.");
+        }
         JLabel price = new JLabel(Float.toString(product.getPrice()).concat("€"));
         price.setPreferredSize(new Dimension(150, 300));
         price.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 30));

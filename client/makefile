@@ -17,4 +17,4 @@ comp:
 # Ejecuta ShoppingSimulator      #
 ##################################
 exe:
-	java -jar ShoppingSimulator.jar
+	java -Djava.security.policy=server.policy -Djava.net.preferIPv4Stack=true -jar ShoppingSimulator.jar

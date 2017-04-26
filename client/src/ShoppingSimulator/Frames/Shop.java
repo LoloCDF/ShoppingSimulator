@@ -1,12 +1,16 @@
 package ShoppingSimulator.Frames;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import ShoppingSimulator.Common.*;
+import ShoppingSimulator.Communication.Communication;
 import ShoppingSimulator.Frames.Layouts.*;
 
 public class Shop extends JFrame {
@@ -15,17 +19,21 @@ public class Shop extends JFrame {
     private List<Product> products = null;
     private List<Product> cart = null;
 
-    ItemContainer container = null;
-    ItemContainer pcontainer = null;
+    private ItemContainer container = null;
+    private ItemContainer pcontainer = null;
 
     private JPanel pmyproducts = null;
     private JLabel cartstate = null;
 
+    private Communication commun = null;
 
     public Shop (){
         super("ShoppingSimulator: Shop(Proyecto SSDD)");
 
         setLayout(new BorderLayout());
+
+        // Init communications
+        commun = new Communication("localhost");
 
         tabs = new JTabbedPane();
         cart = new ArrayList<Product>();
@@ -33,9 +41,7 @@ public class Shop extends JFrame {
 
         // Preparing "Buy" panel
         products = new ArrayList<Product>();
-        for (int i = 0;i<10;i++)
-        products.add(new Product("ps4", 1, "Console",10.25f,
-                "https://images-na.ssl-images-amazon.com/images/I/41Nnygi-NEL.jpg"));
+        products = commun.getProducts();
         container = new ItemContainer(products);
 
         // Preparing "My products" panel
@@ -86,10 +92,16 @@ public class Shop extends JFrame {
                 title.setHorizontalAlignment(SwingConstants.CENTER);
                 boxcontainer.add(title,BorderLayout.PAGE_START);
 
-                JLabel thumbnail = new JLabel(new ImageIcon(products.get(i).getThumbnail()
-                        .getScaledInstance(120, 120, Image.SCALE_SMOOTH)));
-                thumbnail.setPreferredSize(new Dimension(120, 120));
-                boxcontainer.add(thumbnail,BorderLayout.CENTER);
+                try {
+                    URL url = new URL(products.get(i).getThumbnail());
+                    Image image = ImageIO.read(url);
+                    JLabel thumbnail = new JLabel(new ImageIcon(image
+                            .getScaledInstance(120, 120, Image.SCALE_SMOOTH)));
+                    thumbnail.setPreferredSize(new Dimension(120, 120));
+                    boxcontainer.add(thumbnail,BorderLayout.CENTER);
+                } catch (Exception e){
+                    System.err.println("Cannot get the image via URL.");
+                }
 
                 JLabel price = new JLabel(Float.toString(products.get(i).getPrice()));
                 price.setHorizontalAlignment(SwingConstants.CENTER);
@@ -108,11 +120,16 @@ public class Shop extends JFrame {
             title.setHorizontalAlignment(SwingConstants.CENTER);
             boxcontainer.add(title,BorderLayout.PAGE_START);
 
-            JLabel thumbnail = new JLabel(new ImageIcon(product.getThumbnail()
-                    .getScaledInstance(120, 120, Image.SCALE_SMOOTH)));
-            thumbnail.setPreferredSize(new Dimension(120, 120));
-            boxcontainer.add(thumbnail,BorderLayout.CENTER);
-
+            try {
+                URL url = new URL(product.getThumbnail());
+                Image image = ImageIO.read(url);
+                JLabel thumbnail = new JLabel(new ImageIcon(image
+                        .getScaledInstance(120, 120, Image.SCALE_SMOOTH)));
+                thumbnail.setPreferredSize(new Dimension(120, 120));
+                boxcontainer.add(thumbnail,BorderLayout.CENTER);
+            } catch (Exception e){
+                System.err.println("Cannot get the image via URL.");
+            }
             JLabel price = new JLabel(Float.toString(product.getPrice()));
             price.setHorizontalAlignment(SwingConstants.CENTER);
             boxcontainer.add(price,BorderLayout.PAGE_END);
@@ -199,7 +216,9 @@ public class Shop extends JFrame {
         public void mouseClicked(MouseEvent e) {
             cartstate.setText("Number of products in my cart: 0");
 
-            for(int i = 0; i < cart.size(); i++){
+            int nproducts = cart.size();
+
+            for(int i = nproducts-1; i >= 0; i--){
                 cart.remove(i);
             }
         }
