@@ -103,10 +103,10 @@ public class Shop extends JFrame {
                     thumbnail.setPreferredSize(new Dimension(120, 120));
                     boxcontainer.add(thumbnail,BorderLayout.CENTER);
                 } catch (Exception e){
-                    System.err.println("Cannot get the image via URL.");
+                    e.printStackTrace();
                 }
 
-                JLabel price = new JLabel(Float.toString(products.get(i).getPrice()));
+                JLabel price = new JLabel(Float.toString(products.get(i).getPrice()).concat("€"));
                 price.setHorizontalAlignment(SwingConstants.CENTER);
                 boxcontainer.add(price,BorderLayout.PAGE_END);
 
@@ -150,20 +150,33 @@ public class Shop extends JFrame {
 
     private class ItemClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
-            ProductDescription productDescription = new ProductDescription(products.get(e.getButton()));
-            productDescription.setSize(800,600);
-            JOptionPane optionPane = new JOptionPane(
-                    productDescription,
-                    JOptionPane.PLAIN_MESSAGE,
-                    JOptionPane.YES_NO_OPTION);
-            JDialog dialog = optionPane.createDialog(new String("Do you wish to continue buying ")
-                    .concat(products.get(e.getButton()).getName().concat("?")));
-            dialog.setVisible(true);
+            Product product = null;
+            JPanel container = (JPanel)e.getComponent();
+            String nproduct = ((JLabel) container.getComponent(0)).getText();
 
-            if ((int) optionPane.getValue() == 0) {
-                cart.add(products.get(e.getButton()));
-                cartstate.setText(new String("Number of products in my cart: ").concat(
-                        Integer.toString(cart.size())));
+            if (nproduct != null){
+                for(Product aux: products)
+                    if(aux.getName().equals(nproduct))
+                        product = aux;
+            }
+
+            if(product!=null) {
+                ProductDescription productDescription = new ProductDescription(product);
+                productDescription.setPreferredSize(new Dimension(800, 600));
+                JOptionPane optionPane = new JOptionPane(
+                        productDescription,
+                        JOptionPane.PLAIN_MESSAGE,
+                        JOptionPane.YES_NO_OPTION);
+                JDialog dialog = optionPane.createDialog(new String("Do you wish to continue buying ")
+                        .concat(product.getName().concat("?")));
+                dialog.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+                dialog.setVisible(true);
+
+                if ((int) optionPane.getValue() == 0) {
+                    cart.add(product);
+                    cartstate.setText(new String("Number of products in my cart: ").concat(
+                            Integer.toString(cart.size())));
+                }
             }
         }
 

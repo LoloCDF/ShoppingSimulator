@@ -1,0 +1,4 @@
+- "cd common/" y compilar las librerias con "make comp"
+- con "export CLASSPATH=/RUTA/AL/JAR" dirigir el classpath al jar generado anteriormente
+- por ultimo, tanto en cliente como en servidor "make runandcomp"
+- la info de los productos y los usuarios se encuentra en "server/resources"

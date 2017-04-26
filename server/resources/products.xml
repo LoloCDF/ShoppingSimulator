@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<shop>
+<product id="1001">
+    <name>PS4</name>
+    <price>355</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/41Nnygi-NEL.jpg</url>
+    <description>El mando inalámbrico Dual Shock 4 se ha actualizado con un diseño que incluye una barra luminosa más visible y colorida para que tengas un control aún mayor del juego en tus manos. Es el mando para PlayStation ergonómico e intuitivo. Transmite juegos a tu PC, Mac o PlayStation Vita mediante tu red Wi-Fi doméstica y no tendrás que volver a depender de tu televisor. Crea grupos, chatea con los amigos o únete a comunidades de juego para buscar nuevos jugadores.</description>
+</product>
+<product id="1002">
+    <name>camiseta</name>
+    <price>79</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/41uS0%2Bxnb4L._SY450_.jpg</url>
+    <description>Camiseta del Real Madrid temporada 2016/2017</description>
+</product>
+<product id="1003">
+    <name>Conmutador</name>
+    <price>50</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/41gA0C8IAOL._AC_US218_.jpg</url>
+    <description>El TL-SG105 de TP-LINK es un switch de sobremesa con 5 puertos 10/100/1000Mbps que le permite migrar fácilmente su red a la tecnología Gigabit Ethernet. Aumente tanto la velocidad de su servidor de red como la de las conexiones troncales o lleve la experiencia Gigabit a su escritorio. Adicionalmente, el diseño del TL-SG105 le permite reducir su consumo eléctrico. Gracias a su innovadora tecnología de eficiencia energética, el TL-SG105 ahorra hasta un 65% de energía eléctrica, lo que lo convierte en una solución ecológica para la red de su hogar o lugar de trabajo.</description>
+</product>
+<product id="1004">
+    <name>Libro Programador</name>
+    <price>35</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/41d3JAu74ML.jpg</url>
+    <description>El siglo XXI es el de la sociedad de la información y las nuevas tecnologías: todo ello no sería posible sin la enorme industria del software que le sirve de base. No obstante, los desarrolladores de software no aprovechan todas las oportunidades para desempeñar una carrera profesional de éxito, cometiendo siempre los mismos errores una y otra vez. Un buen proyecto software tiene que ver con habilidades creativas y artísticas más que aquellas necesariamente técnicas. El Libro Negro del Programador muestra qué distingue a un programador neófito de quien actúa y trabaja profesionalmente. En la era del emprendimiento y de la nueva economía, el desarrollo profesional de software es su pilar fundamental. Si como programador quieres llegar a ser no sólo bueno sino profesional, no puedes dejar de conocer las gemas de sabiduría que contiene El Libro Negro del Programador.r</description>
+</product>
+<product id="1005">
+    <name>Zapatillas</name>
+    <price>60</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/41V1C-s4LxL._AC_US160_.jpg</url>
+    <description>-Color: Azul (Coastal Blue / Polarized Blue-Rage Green)
+-Material exterior: Sintético
+-Revestimiento: Sintético
+-Material de la suela: Sintético
+-Cierre: Cordones</description>
+</product>
+<product id="1006">
+    <name>PC gamming</name>
+    <price>800</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/51DIudV0vZL._AC_US218_.jpg</url>
+    <description>VIBOX Apache Paquet 9S Gaming PC - 3,9GHz AMD FX 6-Core CPU, GPU GTX 1050 Ti, Avanzado, Ordenador de sobremesa para oficina Gaming vale de juego, con monitor, Iluminaciàn interna azul (3,3GHz (3,9GHz Turbo) Super rápido AMD FX 6100 6-Core Procesador CPU, Nvidia Geforce GTX 1050 Ti 4 GB Tarjeta gráfica GPU, 8 GB 1600MHz DDR3 RAM, Disco duro 1TB, Refrigerador de la CPU Raijintek, 85+ PSU, Caja de Vibox azul, Ningún sistema operativo)</description>
+</product>
+<product id="1007">
+    <name>Guitarra</name>
+    <price>80</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/51N2zTP-LqL._SL1108_.jpg</url>
+    <description>Nuestro modelo C40 ha sido galardonado en la última edición de los premios de la industria musical (M.I.A., Music Industry Awards). Desde su lanzamiento a principios de la década de los ‘90s, nuestra querida C40 ha ido coleccionando premios y reconocimientos, estableciéndose por derecho propio como la guitarra clásica mejor valorada entre profesores, alumnos y guitarristas principiantes, gracias a su increíble relación calidad-precio. La guitarra destaca por su excepcional sonido, confort y prestaciones, dignas de instrumentos de precio superior</description>
+</product>
+<product id="1008">
+    <name>Libro Harry Potter</name>
+    <price>40</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/51TSPkgo8uL._SX305_BO1,204,203,200_.jpg</url>
+    <description>Ser Harry Potter nunca ha sido tarea fácil, menos aún desde que se ha convertido en un atareadísimo empleado del Ministerio de Magia, un hombre casado y padre de tres hijos. Y si Harry planta cara a un pasado que se resiste a quedar atrás, su hijo menor, Albus Severus, ha de luchar contra el peso de una herencia familiar de la que él nunca ha querido saber nada. Cuando el destino conecte el pasado con el presente, padre e hijo deberán afrontar una verdad muy incómoda: a veces, la oscuridad surge de los lugares más insospechados. Desde que el primer libro apareciera en librerías en 1997 —en 1999 en castellano—, la saga de Harry Potter se ha traducido a setenta y nueve idiomas en doscientos países y ha sumado más de cuatrocientos cincuenta millones de ejemplares vendidos en todo el mundo, de los cuales más de trece millones en castellano. Un fenómeno que ha aficionado a la lectura a millones de jóvenes de todas las culturas</description>
+</product>
+<product id="1009">
+    <name>Tablet Xiaomi</name>
+    <price>199</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/51XxYyAGLlL._SY450_.jpg</url>
+    <description>Xiaomi MiPad 2 Cherry Trail Z8500 Android 5.1 2GB 16GB 7.9 pulgadas Retina Tablet Plata.
+Xiaomi MiPad 2 tiene un tamaño de pantalla retina de 7,9 pulgadas, utiliza el procesador de cuatro núcleos Intel cereza Trail Z8500, bases en Android 5.1 OS, se basa en 2 GB de RAM y 16 GB de ROM, se basa en dos cámaras, soporta dual wifi banda.</description>
+</product>
+<product id="1010">
+    <name>Calculadora</name>
+    <price>25</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71mTdxjO9cL._SL1500_.jpg</url>
+    <description>La pantalla Natural (Natural-V.P.A.M.) muestra expresiones matemáticas como las raíces y las fracciones que aparecen en su libro de texto, y esto aumenta la comprensión ya que los resultados son más fáciles de entender.</description>
+</product>
+<product id="1011">
+    <name>Bombilla</name>
+    <price>25</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/81yJRK79HFL._SL1500_.jpg</url>
+    <description>Philips WhiteVision aporta un toque de xenón blanco intenso a los faros delanteros de tu coche para una experiencia de conducción óptima.
+El brillo aumentado, con una luz significativamente más blanca, te proporciona la combinación perfecta de estilo y seguridad.</description>
+</product>
+<product id="1012">
+    <name>Impresora</name>
+    <price>151</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/91zr6ilglNL._SL1500_.jpg</url>
+    <description>Ideal para la funcionalidad cotidiana en el hogar o en pequeñas oficinas, este equipo Todo en Uno inalámbrico con impresión, copia, escaneo y fax permite compartir sus funciones entre múltiples PC y dispositivos móviles. Además, cuenta con el diseño FastFront compacto para simplificar la carga del papel y la sustitución de la tinta</description>
+</product>
+<product id="1013">
+    <name>Balon</name>
+    <price>35</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/910WAeS2rYL._SL1500_.jpg</url>
+    <description>El balón de fútbol Nike Strike La Liga cuenta con una cámara de aire de goma y un llamativo estampado en contraste para ofrecer un tacto uniforme y facilitar su seguimiento visual.</description>
+</product>
+<product id="1014">
+    <name>Funda asientos</name>
+    <price>90</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/7188ytZNpjL._SL1200_.jpg</url>
+    <description>Fundas de asientos. Hechos con la duradera tela de tapicería en las partes laterales de la funda y con velur en forma de estampado en la parte central. Materiales laminados con la espuma de poliuretano y forro. El conjunto incluye un juego completo de las fundas de asientos cosidas a medida (100% de ajuste). Las fundas incluyen unos sistemas prácticos, gracias a los cuales, los asientos no pierden su funcionalidad.</description>
+</product>
+<product id="1015">
+    <name>Dvd Ali G</name>
+    <price>10</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/514+m32QvPL._AC_US160_.jpg</url>
+    <description>Ali G podría contentarse con su tranquila vida en Staines, una pequeña ciudad situada al sur de Inglaterra. Junto a él tiene a su abuela, a su novia Julie, a su perro 2 Pac y su hierba. Él y sus amigos incluso se las arreglan para resistirse a las provocaciones de la banda rival durante sus interminables carreras en R5. Sin embargo, los hábitos de Ali G se ven alterados el día que descubre que el centro de ocio de Staines, donde enseña a los niños “la actitud Ali G”, está a punto de cerrar. Ali G organiza una protesta y finalmente acepta representar a los jóvenes de Staines en el ámbito político. Tras provocar un escándalo que desacredita a su adversario, Ali G es elegido diputado.</description>
+</product>
+<product id="1016">
+    <name>XBOX ONE S</name>
+    <price>455</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/91DgU9Io45L._SL1500_.jpg</url>
+    <description>Consola XBOX ONE S Edición FIFA 17 MEGAPACK DE 6 JUEGOS versión Europea. Multiple languages available in XBOX ONE. Todos nuestros productos están disponibles y son enviados el mismo día (pedidos antes de las 17h) mediante MRW 24h (Península), 24/48h para Baleares y 3-4 días para Canarias. Porsupuesto con número de seguimiento. ENG: International bidders are welcome, we speak english. We ship to most European countries, with best couriers, UPS standard and GLS (for standard shipments it takes 3-5 days transit time) UPS Express also available (urgent shipments 1-2 days transit time) of course we provide tracking number on all shipments. Buy with confidence</description>
+</product>
+<product id="1017">
+    <name>Disco David Bisbal</name>
+    <price>25</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/51RgwX81lbL.jpg</url>
+    <description>HIJOS DEL MAR nace hace meses cuando el artista inicia un Viaje de Composición por varios países que le llevan a Suecia, Francia, Reino Unido, USA y España. En este viaje conoce a distintos productores y autores con los que ha trabajado y le han enseñado a jugar con nuevos estilos musicales sin dejar de lado su propia esencia y donde todo el trabajo deja de manifiesto la calidad artística de David elevando, más si cabe, la fuerza de su voz. En HIJOS DEL MAR hay baladas, medios tiempos, nuevos estilos y sonidos como el del primer single “Antes que No” -N1 en 9 países el primer día de su publicación-. Esta canción, además, tiene un espectacular videoclip (vídeo más visto en youtube el día de su estreno). Para este vídeo David se preparó muy duro para poder grabar las más de 7 horas de rodaje bajo del agua, las secuencias en apnea.</description>
+</product>
+<product id="1018">
+    <name>Television Sony Bravia 75"</name>
+    <price>8000</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71Yi8nnH%2BVL._SL1200_.jpg</url>
+    <description>ZD9 4K HDR con Android TV. Descubre una imagen incomparable en 4K HDR con el ultracontraste. TV 4K Ultra HD con 4K HDR Processor X1TM Extreme y Backlight Master DriveTM.</description>
+</product>
+<product id="1019">
+    <name>Laptop HP</name>
+    <price>250</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71SqRe-iR5L._SL1500_.jpg</url>
+    <description>HP 15-ay000ns -Ordenador Portátil de 15.6'' HD (Intel Celeron N3060, 4 GB RAM, 500 GB HDD, Intel HD Graphics 520, Windows 10); Negro Jack - Teclado QWERTY español</description>
+</product>
+<product id="1020">
+    <name>Raton inalambrico</name>
+    <price>15</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/81bR4iIgG3L._SL1500_.jpg</url>
+    <description>Botas de futbol talla 42</description>
+</product>
+<product id="1021">
+    <name>FIFA 2016</name>
+    <price>60</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71ncWKi9E9L._SL1246_.jpg</url>
+    <description>FIFA 17 es un producto de Electronic Arts que le ofrece al jugador la posibilidad de disfrutar de una experiencia fiel a la realidad. 
+Puede jugar en cualquier club de la Premier League, para los administradores auténticos y junto a algunos de los mejores jugadores del planeta. 
+Presenta el sistema de inteligencia activa</description>
+</product>
+<product id="1022">
+    <name>Robot aspirador</name>
+    <price>600</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61sU54h0OEL._SL1000_.jpg</url>
+    <description>Aspira por sí solo gracias a la tecnología de navegación iAdapt. Mediante sus diferentes sensores se adapta a todos los hogares, limpiando entre el desorden, debajo de los muebles, en alfombras y evitando desniveles. 
+Empieza a limpiar con solo pulsar el botón Clean y vuelve a su home base automáticamente para recargarse, de forma que siempre está listo para volver a salir a limpiar. Es programable hasta 7 días a la semana. 
+Incluye el sistema de limpieza AeroForce en 3 fases, con potentes extractores antienredos, que levanta, extrae y succiona la suciedad. Dispone de sensores ópticos y acústicos para detectar la suciedad y filtros AeroForce de alta eficiencia. Con el cepillo lateral accede a esquinas y rincones, para que las pelusas no tengan donde esconderse. Roomba 871 cuenta con un accesorio adicional, una pared virtual wall que permite limitar el acceso del robot a una habitación concreta.
+Requiere un mantenimiento y limpieza del robot poco frecuente. Y dispone de un indicador de depósito lleno que le permite saber cuándo debe vaciarlo.</description>
+</product>
+<product id="1023">
+    <name>Camiseta FC Barcelona 2017</name>
+    <price>80</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/41F546ddI4L.jpg</url>
+    <description>FC Barcelona. Camiseta 1ª Equipación Adulto 2016-2017, Réplica Oficial MESSI. Talla M</description>
+</product>
+<product id="1024">
+    <name>Mesa de mezclas</name>
+    <price>299</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/716KwZn7MnL._SL1200_.jpg</url>
+    <description>La nueva controladora Pioneer DDJ RB, es la ultima novedad de Pioneer Dj en su nueva gama de controladores Dj para su propio Software, el ya conocido por todos Rekordbox Dj. La DDJ-Sb2 fue una de las más vendidas en todo el Mundo, por su precio, calidad de sonido y sencillez, pero Pioneer Dj ha decidido hacer su propia versión para Rekordbox Dj con la “promesa” de ser el Software con menos latencia del mercado, desbancando por completo a su predecesora y convirtiendose en toda una referencia para los Djs que quieran iniciarse o llevar sus sesiones a todas partes de una manera comoda y compacta. Sus dos canales y su tarjeta de sonido de 24 bits heredada de sus hermanas mayores, RX y RZ, la convierten en una maquina potente y con calidad profesional, con 8 pads multiefectos, beat jump, autoloop y un montón de funciones más.    USB Bus Powered Plug and Play Software incluido rekordbox dj Ancho 482,6 mm Alto 58,5 mm Profundo 272,4 mm Peso 2,1 kg Tarjeta de sonido 24 bit/44.1 kHz Rango de frecuencia 20 - 20,000 Hz Relación Señal/Ruido 103 dB Distorsión menor 0.005 % (USB)   Control de rendimiento   Canales 2 Control de plato 2 Jog wheel de aluminio resistente de 128 mm Pad FX Filtro paso Alto / Bajo Sampler 16slot x 4bank Hot Cues 8 Loop Manual Beat Jump   Terminales   Entradas 1 MIC (Jack 1/4 pulgadas) Salidas 1 MASTER (RCA) / 1 AURICULARES MONITOR (Jack 1/4 pulgadas, mini-jack) 1 puerto USB B     Requerimientos del Software   OS (Windows): Windows 10/ 8.1/ 7 (service pack más reciente) OS (MAC): Mac OS X 10.11, 10.10, 10.9 (actualizado a la última versión) Intel® processor Core™ i7, i5, i3 Intel® processor Core™ 2 Duo 2.0GHz o superior Memoria: 4 GB o más de RAM Resolución de pantalla: 1280 x 768 o superior   Rekordbox dj Obtén una clave de lic</description>
+</product>
+<product id="1025">
+    <name>Altavoz inalambrico</name>
+    <price>175</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71MjQSvvIUL._SL1200_.jpg</url>
+    <description>Llévate tu música a donde quieras. El altavoz  SoundLink® Mini II ofrece un sonido rico en matices y natural con los graves más profundos y dramáticos que jamás habrías podido imaginar en un altavoz portátil. El altavoz se conecta de forma inalámbrica a tu smartphone tablet u otro dispositivo  para que puedas escuchar tu música vídeos o videojuegos cuando y donde quieras. Además también podrás recibir llamadas mediante el manos libres incorporado.</description>
+</product>
+<product id="1026">
+    <name>Auriculares Beats</name>
+    <price>174</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/813FQvqI68L._SL1500_.jpg</url>
+    <description>Sumérgete en una experiencia sensacional. Los Solo2 cuentan con una gama de sonidos más dinámica y más amplia, así como con una claridad que te acercará justo donde el artista pretendía. Independientemente de si lo tuyo es el hip-hop, el heavy metal, el jazz o la música electrónica, sentirás una mayor fidelidad de sonido con tus Solo2.</description>
+</product>
+<product id="1027">
+    <name>Libro electronico</name>
+    <price>121</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61pKlVRhZcL._SL1000_.jpg</url>
+    <description>Kindle Paperwhite incorpora Bookerly, una exclusiva fuente de lectura que ha sido diseñada para leerse en pantallas digitales. Cálida y contemporánea, Bookerly se inspira en el diseño artístico de las mejores fuentes usadas en la impresión de libros modernos pero, a diferencia de estas, Bookerly ha sido creada a mano para facilitar la lectura en cualquier tamaño de letra.</description>
+</product>
+<product id="1028">
+    <name>CD Tomorrowland</name>
+    <price>25</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61TLETvrJ1L.jpg</url>
+    <description>Tomorrowland, qui se tient les 22, 23 et 24 juillet à Boom en Belgique, est tout simplement le plus gros festival consacré à la Dance (EDM) en Europe, et le plus connu !
+Pas un fan d électro qui ne souhaite en effet un jour s y rendre, pour vivre l expérience unique de ce festival hors norme : 6 scènes, + de 300 DJs, et 180 000 clubbers qui font la fête non stop pendant 3 jours, dans un décor tout droit sorti d un film hollywoodien.
+Cette année encore, la compilation officielle de cet évènement mythique dans une version Longbox deluxe , avec les mixes des plus grands DJ de la planète : David Guetta, Armin Van Buuren, Tiesto, REhab, Alesso, Dedmau5. Fedde le Grand</description>
+</product>
+<product id="1029">
+    <name>Maquina de Palomitas</name>
+    <price>33</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/81ExdRNxUCL._SL1500_.jpg</url>
+    <description>Palomitero portátil
+Diseño vintage
+Funcionamiento rápido y sencillo, ¡palomitas en 3 minutos!
+Cacito medidor integrado para obtener la cantidad ideal de palomitas
+Incluye recetas para realizar palomitas de sabores
+Sin necesidad de añadir aceite, producto más sano
+Ideal para casa, oficina, barco, picnic y camping
+Potencia 1200 W
+Conexión 220-240 V~50 Hz</description>
+</product>
+<product id="1030">
+    <name>Sisha</name>
+    <price>25</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71qQOHmyu-L._SL1200_.jpg</url>
+    <description>1. Se puede obtener el placer de fumar cachimba y alejarse de tabaquismo.
+2. Se ve hermoso y práctico, fumar también es la próxima manera de moda y ocio
+3. Adecuado para familias, restaurantes internacionales, cafés, clubes, hoteles y otros lugares.</description>
+</product>
+<product id="1031">
+    <name>Nintendo Switch</name>
+    <price>345</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/71WQd-1TiBL._SL1500_.jpg</url>
+    <description>
+La consola Nintendo Switch puede transformarse para adaptarse a tu situación, de modo que puedes jugar a los juegos que tú quieras por muy ocupado que estés. 
+Es una nueva era en la que no tienes que adaptar tu vida a los videojuegos: ahora es la consola la que se adapta a tu vida. 
+Disfruta de tus juegos cuando quieras, donde quieras y como quieras con modos de juego flexibles.</description>
+</product>
+<product id="1032">
+    <name>Mario Kart 8</name>
+    <price>49</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/91BphPXVYVL._SL1500_.jpg</url>
+    <description>Gracias a Nintendo Switch, los aficionados pueden disfrutar de la versión definitiva de Mario Kart 8 donde quieran y cuando quieran, incluso en partidas multijugador local para hasta ocho pilotos. Los populares circuitos y personajes de la versión de Wii U están de vuelta, junto a los circuitos y personajes descargables, y además se unen a la parrilla personajes nuevos: Inkling chico e Inkling chica, de Splatoon; el Rey Boo; Huesitos y Bowsy. Por otra parte, el modo batalla se renueva por completo con la batalla de globos y el Bob-ombardeo, y con la inclusión de circuitos inéditos
+
+Ahora se pueden llevar dos objetos simultáneamente, incluidos algunos de anteriores Mario Kart, como el ladrón de objetos Boo y la pluma, que permite saltar en las batallas. Además, los pilotos cuentan con la ayuda del nuevo volante inteligente, que ayuda a no salirse de la pista incluso en las pruebas de 200 cc. En modo televisor, el juego alcanza una resolución de 1080p.</description>
+</product>
+<product id="1033">
+    <name>Proyector Benq</name>
+    <price>390</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/8126BCvGQTL._SL1500_.jpg</url>
+    <description>El proyector Home Cinema BenQ W1090 le transporta la emoción de los deportes televisados en los bares, a la comodidad de su hogar. Reúna a sus amigos y familiares delante de la gran pantalla de 100” en vídeo Full HD con el apoyo de un sonido espléndido. No se pierda ningún detalle con el modo Deportes del W1090 que ofrece un toque realista a la exuberante hierba verde, mejorando el tono de piel de los jugadores, transportándole al estadio para vivir el juego en primera persona.</description>
+</product>
+<product id="1034">
+    <name>Coleccion Pelis Fast and Furious</name>
+    <price>30</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/91M6xTR70rL._SL1500_.jpg</url>
+    <description>Disfruta de las carreras ilegales por las calles de Los Ángeles, el desafío constante a la muerte por los desvíos de Tokyo y la acción sin fin en Río, incluyendo las escenas peligrosas y de infarto y mucho más. Cada película supera a la anterior en proezas increíbles y acción al límite. Abróchate el cinturón con el viaje definitivo de Fast and Furious.</description>
+</product>
+<product id="1035">
+    <name>Xiaomi mi Band 2</name>
+    <price>30</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/4173tz0zefL.jpg</url>
+    <description>Certificación IP67 resistente al agua / a prueba de polvo. Puede ser sumergida en agua hasta un metro un máximo de 30 minutos.Pantalla OLED Táctil 0.42"; (la hora, la frecuencia cardiaca en tiempo real, pasos dados, distancia recorrida, llamadas, alarma, correos electrónicos, etc...).  Funciona en las versiones de Android 4.4 / iOS 7.0 en adelante.Autonomía estimada de 20 días.Sincronización a través de bluetooth con la aplicación para su smartphone y podrá ver toda la información.Capacidad de la batería: 70mAhLongitud de la correa ajustable: 155~210mm La sincronización entre smartband y smartphone se realiza a través de Bluetooth 4.0. Despertador inteligente.Alarma por vibración.Botón táctil para cambiar de pantalla y consultar cada registro.Vistualización del pulso sin tener vinculado el teléfono. Importante:  En la pantalla se visualizará que tiene mensajes de Whatsapp pero no podrá leerlo; de la misma forma sucede con las llamadas, notifica que alguien nos llama, pero no indica quién</description>
+</product>
+<product id="1036">
+    <name>Reloj Lotus</name>
+    <price>84</price>
+    <url>https://images-eu.ssl-images-amazon.com/images/I/41R3uKC3kxL._AC_UL260_SR200,260_.jpg</url>
+    <description>Caja redonda de policarbonato
+Correa de caucho con hebilla de acero inoxidable clásico
+Funciones de cronógrafo
+Resistente al agua hasta 50 metros
+Incluye una caja de regalo elegante</description>
+</product>
+<product id="1037">
+    <name>Camara Canon</name>
+    <price>350</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/81qfINYzafL._SL1500_.jpg</url>
+    <description>Alcance de temperatura operativa: 0 - 40 °C; Auto focusing (AF) modes: AI Focus,One Shot Focus; Autodisparador: 2,10 s; Cargador de baterias; Cierre de flash de exposición; Compensación de exposición del flash; Exposure flash cierre; GPS; Histograma; Light metering: Centrado, Evaluativa (multi-patrón), Parcial; Micrófono incorporado; Near Field Communication (NFC); PictBridge; Registro de voz; Resolución de captura de imagenes fijas: 5184 x 3456, 3456 x 2304, 2592 x 1728, 1920 x 1280, 720 x 480, 4608 x 3456, 3072 x 2304, 2304 x 1728, 1696 x 1280, 640 x 480, 5184 x 2912, 3456 x 1944, 2592 x 1456, 1920 x 1080, 720 x 400, 3456 x 3456, 2304 x 2304, 1728 x 1728, 1280 x 1280, 480 x 480, 5184 x 3456; Scene modes: Acercamiento (macro), Comida, Paisaje, Retrato nocturno, Retrato, Deportes; Seguro de autoexposición (AE); Video recording; pantalla táctil</description>
+</product>
+<product id="1038">
+    <name>Iphone 7</name>
+    <price>750</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61tgN5wC8VL._SL1024_.jpg</url>
+    <description>El modelo en negro mate está hecho de un aluminio pulido satinado con un acabado mate rico y profundo. Gracias al diseño de su carcasa, el iPhone 7 es resistente al agua, a las salpicaduras, los líquidos derramados y hasta el polvo. El iPhone 7 estrena un botón de inicio de estado sólido. Es resistente y responde a la presión rápidamente. Además te da información táctil gracias al Taptic Engine, y puedes configurarlo a tu manera. Touch ID usa un sensor de identidad por huella dactilar para desbloquear el teléfono de una forma fácil, rápida y segura.</description>
+</product>
+<product id="1039">
+    <name>Samsung galaxy S8</name>
+    <price>800</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61fMwXpIBcL._SL1500_.jpg</url>
+    <description>El Samsung Galaxy S8 es uno de esos móviles que no necesitan presentación. Tras arrasar con el S7, la compañia surcoreana ha redefinido completamente el diseño de su nuevo buque insignia, que llega cargado de novedades y con unas características de infarto. En MaxMovil puedes comprar el Samsung Galaxy S8 con envío gratis y pagarlo cómodamente a plazos.
+
+Una pantalla sin bordes
+La silueta elegante y curva del Galaxy S8 está indudablemente protagonizada por la pantalla. Un panel con diagonal de 5,8 pulgadas que parece no tener límites. De hecho, Samsung ha eliminado los marcos para que la pantalla ocupe toda la parte frontal. Puedes sumergirte en su resolución WQHD+, con 550 píxeles por pulgada, y descubrir el nivel de detalle que puede llegar a ofrecer la pantalla de un smartphone.
+
+Para dejarte todavía más espacio, los botones de navegación permanecen ocultos hasta que los necesitas. El botón físico tradicional de Samsung, asimismo, pasa a ser virtual en este modelo. Aprovecha el espacio y la multitarea de Android Nougat y utiliza distintas aplicaciones en varias ventanas simultáneas.
+
+Una cámara 24 horas
+Muchos móviles echan buenas fotos durante el día, pero cuando no hay mucha luz la calidad se pierde estrepitosamente. Esto no sucede con el Samsung S8, capaz de tomar fotos nítidas y brillantes con poca luz. La lente F1.7, el píxel de 1,4 µm y el procesado son capaces de compensar la escasa iluminación en estas condiciones. La cámara delantera, por su parte, te permite captar unos selfies que todos querrán compartir. Con todos tus amigos enfocados a la primera y multitud de filtros para jugar.
+
+El sensor Dual Pixel enfoca rápidamente las fotos con una claridad óptima. También puedes optar por el Modo Pro de la cámara, para ajustar el ISO, la velocidad de disparo, el balance de blancos o la exposición. </description>
+</product>
+<product id="1040">
+    <name>MacBook Pro</name>
+    <price>1300</price>
+    <url>https://images-na.ssl-images-amazon.com/images/I/61ID-SZTRGL._SL1095_.jpg</url>
+    <description>Revolucionaria pantalla Retina, trackpad Force Touch, tecnología flash ultrarrápida y potentes procesadores Intel de dos y cuatro núcleos. Todas estas innovaciones van a llevar tu rendimiento a niveles estratosféricos. Ni uno, ni dos, ni tres: más de cuatro millones de píxeles en el modelo de 13" y más de cinco millones en el de 15". Cuando juntas tantos píxeles en una pantalla, el resultado es difícil de creer. La densidad es tan alta que el ojo no los distingue uno por uno y las imágenes no escatiman en detalles. Los 2560 por 1600 píxeles en el modelo de 13" y los 2880 por 1800 en el de 15" proporcionan una resolución espectacular, a millones de años luz de lo visto hasta ahora. Y el texto es tan nítido que te parecerá que estás leyendo los documentos, las páginas web y los emails en papel.</description>
+</product>
+</shop>

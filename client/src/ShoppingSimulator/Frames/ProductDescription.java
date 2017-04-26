@@ -1,6 +1,7 @@
 package ShoppingSimulator.Frames;
 
 import ShoppingSimulator.Common.Product;
+import ShoppingSimulator.Frames.Layouts.WrapLayout;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -17,6 +18,7 @@ public class ProductDescription extends JPanel {
 
         setLayout(new BorderLayout());
 
+
         JLabel title = new JLabel(product.getName());
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 40));
@@ -25,11 +27,14 @@ public class ProductDescription extends JPanel {
         title.setPreferredSize(new Dimension(800, 100));
         add(title,BorderLayout.PAGE_START);
 
-        JLabel description = new JLabel(product.getDescription());
-        description.setHorizontalAlignment(SwingConstants.LEFT);
-        description.setVerticalAlignment(SwingConstants.TOP);
-        description.setSize(150,200);
-        add(description,BorderLayout.CENTER);
+        JPanel panel = new JPanel();
+        panel.setLayout(new BorderLayout());
+        JTextArea text = new JTextArea(product.getDescription());
+        text.setLineWrap(true);
+        JScrollPane scroll = new JScrollPane(text,ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,
+                ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        panel.add(scroll, BorderLayout.CENTER);
+        add(panel,BorderLayout.CENTER);
 
         try {
             URL url = new URL(product.getThumbnail());

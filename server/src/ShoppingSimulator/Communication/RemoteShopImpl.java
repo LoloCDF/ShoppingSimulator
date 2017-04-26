@@ -11,18 +11,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RemoteShopImpl extends UnicastRemoteObject implements RemoteShop {
+    XMLReader reader = null;
     List<Product> products = null;
     List<User> users = null;
 
     public RemoteShopImpl() throws RemoteException {
-        products = new ArrayList<Product>();
-        users = new ArrayList<User>();
-
-        for (int i = 0;i<10;i++)
-            products.add(new Product("ps4", 1, "Console",10.25f,
-                    "https://images-na.ssl-images-amazon.com/images/I/41Nnygi-NEL.jpg"));
-
-        users.add(new User(1,"maragon", 21));
+        reader = new XMLReader("resources/products.xml", "resources/users.xml");
+        products = reader.loadProducts();
+        users = reader.loadUsers();
     }
 
 
@@ -43,6 +39,8 @@ public class RemoteShopImpl extends UnicastRemoteObject implements RemoteShop {
         List<Product> products = null;
         if(buser != null)
             products = buser.getProducts();
+
+        System.out.println("A client asked for its products.");
 
         return products;
     }
