@@ -1,4 +1,6 @@
 - "cd common/" y compilar las librerias con "make comp"
-- con "export CLASSPATH=/RUTA/AL/JAR" dirigir el classpath al jar generado anteriormente
+- con "export CLASSPATH=/RUTA/AL/JAR" dirigir el classpath al .jar generado anteriormente
+- esta variable debe existir en cada nuevo terminal que abramos
+- arrancar servidor rmi con "make rmiexe"
 - por ultimo, tanto en cliente como en servidor "make runandcomp"
 - la info de los productos y los usuarios se encuentra en "server/resources"
