@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+// Clase que representa al usuario
 public class User implements Serializable {
     private int id = 0;
     private String name = null;

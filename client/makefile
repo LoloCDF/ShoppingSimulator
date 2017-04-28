@@ -17,4 +17,4 @@ comp:
 # Execution ShoppingSimulator    #
 ##################################
 exe:
-	java -cp ../common/ShoppingSimulatorCommon.jar:ShoppingSimulator.jar -Djava.security.policy=server.policy -Djava.net.preferIPv4Stack=true ShoppingSimulator.Main
+	java -cp ../common/ShoppingSimulatorCommon.jar:ShoppingSimulator.jar -Djava.security.policy=server.policy -Djava.net.preferIPv4Stack=true ShoppingSimulator.Main $(ARGS)

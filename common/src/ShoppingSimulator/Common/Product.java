@@ -1,10 +1,8 @@
 package ShoppingSimulator.Common;
 
-import javax.imageio.ImageIO;
-import java.awt.Image;
-import java.net.URL;
 import java.io.*;
 
+// Clase que representa a un producto
 public class Product implements Serializable {
     private int id = 0;
     private String name = null;

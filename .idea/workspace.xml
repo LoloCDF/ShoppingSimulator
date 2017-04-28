@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd8bb16a-22f3-4e3e-a7bc-c6890afa2332" name="Default" comment="" />
+    <list default="true" id="bd8bb16a-22f3-4e3e-a7bc-c6890afa2332" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/ShoppingSimulator.jar" afterPath="$PROJECT_DIR$/client/ShoppingSimulator.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Communication/Communication.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Communication/Communication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Layouts/WrapLayout.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Layouts/WrapLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login$EmptyText.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login$EmptyText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login$SendInformation.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login$SendInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/ProductDescription.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/ProductDescription.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$BuyClicked.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$BuyClicked.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$EmptyClicked.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$EmptyClicked.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ItemClicked.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ItemClicked.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ItemContainer.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ItemContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ViewClicked.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop$ViewClicked.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build/ShoppingSimulator/Main.class" afterPath="$PROJECT_DIR$/client/build/ShoppingSimulator/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/ShoppingSimulatorCommon.jar" afterPath="$PROJECT_DIR$/common/ShoppingSimulatorCommon.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/build/ShoppingSimulator/Common/Product.class" afterPath="$PROJECT_DIR$/common/build/ShoppingSimulator/Common/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/build/ShoppingSimulator/Common/User.class" afterPath="$PROJECT_DIR$/common/build/ShoppingSimulator/Common/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/ShoppingSimulatorServer.jar" afterPath="$PROJECT_DIR$/server/ShoppingSimulatorServer.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/build/ShoppingSimulator/Communication/RemoteShopImpl.class" afterPath="$PROJECT_DIR$/server/build/ShoppingSimulator/Communication/RemoteShopImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/build/ShoppingSimulator/Communication/XMLReader.class" afterPath="$PROJECT_DIR$/server/build/ShoppingSimulator/Communication/XMLReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/build/ShoppingSimulator/Main.class" afterPath="$PROJECT_DIR$/server/build/ShoppingSimulator/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/makefile" afterPath="$PROJECT_DIR$/client/makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/ProductDescription.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/ProductDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java" afterPath="$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java" afterPath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java" afterPath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java" afterPath="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShopImpl.java" afterPath="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShopImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java" afterPath="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java" afterPath="$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +52,41 @@
       <file leaf-file-name="XMLReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="799">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Communication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrapLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -28,30 +94,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/resources/users.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/resources/products.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6314">
-              <caret line="287" column="7" lean-forward="false" selection-start-line="287" selection-start-column="7" selection-end-line="287" selection-end-column="7" />
+            <state relative-caret-position="88">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -61,7 +105,33 @@
         <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="249" column="42" lean-forward="false" selection-start-line="249" selection-start-column="42" selection-end-line="249" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ItemContainer#0;class#Shop#0" expanded="false" />
+                <element signature="class#ItemClicked#0;class#Shop#0" expanded="false" />
+                <element signature="class#EmptyClicked#0;class#Shop#0" expanded="false" />
+                <element signature="class#ViewClicked#0;class#Shop#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteShop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -70,37 +140,11 @@
       <file leaf-file-name="RemoteShopImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShopImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="22">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2398">
-              <caret line="171" column="83" lean-forward="false" selection-start-line="171" selection-start-column="83" selection-end-line="171" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#ItemContainer#0;class#Shop#0" expanded="false" />
-                <element signature="class#BuyClicked#0;class#Shop#0" expanded="false" />
-                <element signature="class#EmptyClicked#0;class#Shop#0" expanded="false" />
-                <element signature="class#ViewClicked#0;class#Shop#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDescription.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/ProductDescription.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -158,9 +202,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java" />
         <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Common/Producto.java" />
-        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Common/Main.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/Tienda.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/Shop.java" />
@@ -172,25 +214,28 @@
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Common/Product.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShop.java" />
         <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/RemoteShop.java" />
-        <option value="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java" />
-        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java" />
-        <option value="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java" />
-        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java" />
-        <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/NodeListnames.java" />
         <option value="$PROJECT_DIR$/server/resources/productos.xml" />
+        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java" />
+        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java" />
         <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/ProductDescription.java" />
-        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java" />
-        <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java" />
+        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java" />
+        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java" />
+        <option value="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java" />
+        <option value="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java" />
+        <option value="$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java" />
         <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShopImpl.java" />
+        <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java" />
+        <option value="$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java" />
+        <option value="$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="81" />
     <option name="y" value="-5" />
-    <option name="width" value="1841" />
-    <option name="height" value="941" />
+    <option name="width" value="1839" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -207,8 +252,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,13 +445,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppingSimulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppingSimulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppingSimulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Communication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/ShoppingSimulatorCommon.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -602,7 +673,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="-5" width="1841" height="941" extended-state="6" />
+    <frame x="81" y="-5" width="1839" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,7 +685,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27068093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27968487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -634,7 +705,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -666,7 +745,7 @@
         <state relative-caret-position="550">
           <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -867,13 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Common/Main.java" />
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Main/jav.java" />
     <entry file="file://$PROJECT_DIR$/client/build/ShoppingSimulator/Frames/Shop.class">
@@ -907,41 +979,6 @@
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Common/Product.java" />
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShop.java" />
     <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/RemoteShop.java" />
-    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="91" column="59" lean-forward="false" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/NodeListnames.java" />
     <entry file="file://$PROJECT_DIR$/server/resources/products.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,40 +988,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java">
+    <entry file="file://$PROJECT_DIR$/server/resources/users.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java">
+    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="171" column="83" lean-forward="false" selection-start-line="171" selection-start-column="83" selection-end-line="171" selection-end-column="83" />
+        <state relative-caret-position="308">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ItemContainer#0;class#Shop#0" expanded="false" />
-            <element signature="class#BuyClicked#0;class#Shop#0" expanded="false" />
-            <element signature="class#EmptyClicked#0;class#Shop#0" expanded="false" />
-            <element signature="class#ViewClicked#0;class#Shop#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/ProductDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="601">
+          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="class#EmptyText#0;class#Login#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Layouts/WrapLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/RemoteShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/RemoteShopImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="22">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -993,29 +1068,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Communication/XMLReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="799">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/ShoppingSimulator/Common/User.java">
+    <entry file="file://$PROJECT_DIR$/server/src/ShoppingSimulator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/resources/users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="66">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Communication/Communication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/ShoppingSimulator/Frames/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="249" column="42" lean-forward="false" selection-start-line="249" selection-start-column="42" selection-end-line="249" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ItemContainer#0;class#Shop#0" expanded="false" />
+            <element signature="class#ItemClicked#0;class#Shop#0" expanded="false" />
+            <element signature="class#EmptyClicked#0;class#Shop#0" expanded="false" />
+            <element signature="class#ViewClicked#0;class#Shop#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

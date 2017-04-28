@@ -22,10 +22,10 @@ public class Communication {
                     remoteHost.concat(":8888/RemoteShop")));
         }
         catch (RemoteException e) {
-            System.err.println("Error de comunicacion: " + e.toString());
+            System.err.println(new String("Communication error: ").concat(e.toString()));
         }
         catch (Exception e) {
-            System.err.println("Exception en ClienteShop:");
+            System.err.println("Exception in ShoppingSimulator:");
             e.printStackTrace();
         }
     }

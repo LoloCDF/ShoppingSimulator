@@ -8,17 +8,25 @@ import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
 
+/*
+ * Esta clase se encarga de establecer como debe ser el frame
+ * que presente la descripcion de un producto.
+ */
 public class ProductDescription extends JPanel {
+
+    // Este es el producto del cual vamos a mostrar la descripcion
     private Product product = null;
 
     public ProductDescription(Product product){
+
+        // Inicializamos
         this.setName(product.getName());
 
         this.product = product;
 
         setLayout(new BorderLayout());
 
-
+        // Mostramos titulo del producto
         JLabel title = new JLabel(product.getName());
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 40));
@@ -27,6 +35,7 @@ public class ProductDescription extends JPanel {
         title.setPreferredSize(new Dimension(800, 100));
         add(title,BorderLayout.PAGE_START);
 
+        // Mostramos la descripcion del producto en un area de texto con scroll
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
         JTextArea text = new JTextArea(product.getDescription());
@@ -36,6 +45,7 @@ public class ProductDescription extends JPanel {
         panel.add(scroll, BorderLayout.CENTER);
         add(panel,BorderLayout.CENTER);
 
+        // Mostramos la imagen del producto, que se obtiene a traves de internet
         try {
             URL url = new URL(product.getThumbnail());
             Image image = ImageIO.read(url);
@@ -49,6 +59,8 @@ public class ProductDescription extends JPanel {
         } catch (Exception e){
             System.err.println("Cannot get image from url.");
         }
+
+        // Por ultimo mostramos el precio del producto
         JLabel price = new JLabel(Float.toString(product.getPrice()).concat("€"));
         price.setPreferredSize(new Dimension(150, 300));
         price.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 30));

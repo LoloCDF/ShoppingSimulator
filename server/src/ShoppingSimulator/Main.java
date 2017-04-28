@@ -3,6 +3,7 @@ import ShoppingSimulator.Communication.RemoteShopImpl;
 
 import java.rmi.*;
 
+// Proceso principal del servidor
 class Main  {
     static public void main (String args[]) {
         if (System.getSecurityManager() == null) {

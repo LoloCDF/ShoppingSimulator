@@ -4,7 +4,6 @@ package ShoppingSimulator.Communication;
 import ShoppingSimulator.Common.Product;
 import ShoppingSimulator.Common.User;
 import org.w3c.dom.Document;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -13,10 +12,15 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+// Lectos de los ficheros XML que contienen los usuarios y los productos
 public class XMLReader {
+    // Para leer los productos
     private Document dproducts = null;
+
+    // Para leer los usuarios
     private Document dusers = null;
-    
+
+    // Inicializamos la clase
     public XMLReader(String pproducts, String pusers){
         File fproducts = new File(pproducts);
         File fusers = new File(pusers);
@@ -32,6 +36,7 @@ public class XMLReader {
         }
     }
 
+    // Metodo que se encarga de leer los productos y crear una lista de productos
     public List<Product> loadProducts(){
         System.out.println("Loading products...");
 
@@ -54,6 +59,7 @@ public class XMLReader {
         return result;
     }
 
+    // Metodo que se encarga de leer los usuarios y crear una lista de usuarios
     public List<User> loadUsers(){
         System.out.println("Loading users...");
         List<User> result = new ArrayList<User>();

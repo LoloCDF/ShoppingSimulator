@@ -12,47 +12,66 @@ import ShoppingSimulator.Common.*;
 import ShoppingSimulator.Communication.Communication;
 import ShoppingSimulator.Frames.Layouts.*;
 
+/*
+ * Esta clase contiene el frame tienda, que muestra los productos y nos
+ * permite interaccionar con el servidor.
+ */
 public class Shop extends JFrame {
+    // Panel que contiene la pestaña de "mis productos"
+    private JPanel pmyproducts = null;
+
+    // Etiqueta que muestra el estado del carrito
+    private JLabel cartstate = null;
+
+    // Pestañas
     private JTabbedPane tabs = null;
+
+    // Lista de productos que representa los productos que tengo ahora en posesion
     private List<Product> myproducts = null;
+
+    // Productos que ofrece el servidor
     private List<Product> products = null;
+
+    // Productos en el carrito
     private List<Product> cart = null;
 
+    // Contenedores scrollables de productos y mis productos
     private ItemContainer container = null;
     private ItemContainer pcontainer = null;
 
-    private JPanel pmyproducts = null;
-    private JLabel cartstate = null;
-
+    // Para una comunicacion transparente
     private Communication commun = null;
 
+    // Nombre de usuario
     private String name = null;
 
-    public Shop (String name){
+    public Shop (String name, String server){
+        // Inicializamos
         super("ShoppingSimulator: Shop(Proyecto SSDD)");
 
         setLayout(new BorderLayout());
         this.name = name;
 
-        // Init communications
-        commun = new Communication("localhost");
+        // Inicializamos las comunicaciones
+        commun = new Communication(server);
 
+        // Creamos las pestañas
         tabs = new JTabbedPane();
         cart = new ArrayList<Product>();
         myproducts = new ArrayList<Product>();
 
-        // Preparing "Buy" panel
+        // Preparamos la pestaña "Buy"
         products = new ArrayList<Product>();
         products = commun.getProducts();
         container = new ItemContainer(products);
 
-        // Preparing "My products" panel
+        // Preparamos la pestaña "My products"
         pmyproducts = new JPanel();
         myproducts = commun.getMyProducts(name);
         pcontainer = new ItemContainer(myproducts);
         pmyproducts.add(pcontainer);
 
-        // We add the panels to the tabs
+        // Añadimos los paneles a las pestañas
         JScrollPane pscroll = new JScrollPane(pcontainer,ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,
                 ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         pscroll.getVerticalScrollBar().setUnitIncrement(16);
@@ -66,7 +85,7 @@ public class Shop extends JFrame {
 
         add(tabs, BorderLayout.CENTER);
 
-        // We have to create the bottom bar
+        // Creamos la barra de opciones de abajo
         JPanel bottom = new JPanel(new FlowLayout());
         cartstate = new JLabel(new String("Number of products in my cart: ").concat(
                 Integer.toString(cart.size())));
@@ -84,17 +103,26 @@ public class Shop extends JFrame {
         add(bottom,BorderLayout.PAGE_END);
     }
 
+    /*
+     * Esta clase extiende a JPanel para conseguir una clase propia
+     * adaptada a mostrar los productos.
+     */
     private class ItemContainer extends JPanel {
         public ItemContainer(List<Product> products) {
+            // Este layout no viene en las librerias de Swing, es descargado
             setLayout(new WrapLayout());
 
+            // Para cada producto, creamos una cajita y la añadimos al panel
             for(int i=0; i<products.size(); i++){
+                // Cajita
                 JPanel boxcontainer = new JPanel(new BorderLayout());
 
+                // Titulo
                 JLabel title = new JLabel(products.get(i).getName());
                 title.setHorizontalAlignment(SwingConstants.CENTER);
                 boxcontainer.add(title,BorderLayout.PAGE_START);
 
+                // Imagen
                 try {
                     URL url = new URL(products.get(i).getThumbnail());
                     Image image = ImageIO.read(url);
@@ -106,10 +134,12 @@ public class Shop extends JFrame {
                     e.printStackTrace();
                 }
 
+                // Precio
                 JLabel price = new JLabel(Float.toString(products.get(i).getPrice()).concat("€"));
                 price.setHorizontalAlignment(SwingConstants.CENTER);
                 boxcontainer.add(price,BorderLayout.PAGE_END);
 
+                // Añadimos el listener que capture el evento de click
                 boxcontainer.addMouseListener(new ItemClicked());
 
                 add(boxcontainer);
@@ -148,8 +178,11 @@ public class Shop extends JFrame {
         }
     }
 
+    // Un producto se ha clickado, mostramos la descripcion en una nueva ventana
     private class ItemClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
+
+            // Primero queremos obtener el producto que se ha clickado
             Product product = null;
             JPanel container = (JPanel)e.getComponent();
             String nproduct = ((JLabel) container.getComponent(0)).getText();
@@ -161,6 +194,7 @@ public class Shop extends JFrame {
             }
 
             if(product!=null) {
+                // Mostramos un nuevo frame del estilo "ProductDescripcion"
                 ProductDescription productDescription = new ProductDescription(product);
                 productDescription.setPreferredSize(new Dimension(800, 600));
                 JOptionPane optionPane = new JOptionPane(
@@ -172,11 +206,13 @@ public class Shop extends JFrame {
                 dialog.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
                 dialog.setVisible(true);
 
+                // Si el usuario a clickado "si" añadimos el producto al carrito
                 if ((int) optionPane.getValue() == 0) {
                     cart.add(product);
                     cartstate.setText(new String("Number of products in my cart: ").concat(
                             Integer.toString(cart.size())));
                 }
+                // si no salimos sin hacer nada
             }
         }
 
@@ -197,18 +233,21 @@ public class Shop extends JFrame {
         }
     }
 
+    // Cuando el usuario pulse este boton, se mandan todos los productos del carrito
+    // al servidor para que este valide la compra
     private class BuyClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
 
+            // Compramos los productos, le pasamos nuestro nombre de usuario y el carrito
             boolean result = commun.buy(name,cart);
 
             if(result) {
+                // Vaciamos el carrito de la compra y refrescamos mis productos
                 cartstate.setText("Number of products in my cart: 0");
 
                 int nproducts = cart.size();
-
-                for (int i = nproducts - 1; i >= 0; i--) {
-                    myproducts.add(cart.get(i));
+                myproducts = commun.getMyProducts(name);
+                for (int i = cart.size()-1; i >= 0; i--) {
                     pcontainer.addItem(cart.get(i));
                     pcontainer.refresh();
                     cart.remove(i);
@@ -240,6 +279,7 @@ public class Shop extends JFrame {
         }
     }
 
+    // Para vaciar el carrito
     private class EmptyClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
             cartstate.setText("Number of products in my cart: 0");
@@ -268,6 +308,7 @@ public class Shop extends JFrame {
         }
     }
 
+    // Para ver los productos del carrito
     private class ViewClicked implements MouseListener{
         public void mouseClicked(MouseEvent e) {
             JOptionPane.showConfirmDialog(e.getComponent().getParent().getParent(),new ItemContainer(cart),

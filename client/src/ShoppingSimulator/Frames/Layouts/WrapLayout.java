@@ -3,6 +3,9 @@ package ShoppingSimulator.Frames.Layouts;
 import java.awt.*;
 import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;
+// Este es un layout customizado descargado de internet. Nos ofrece
+// la funcionalidad de un FlowLayout pero a diferencia de este
+// cuando el item no encuentra espacio en su caja, se despliega hacia abajo.
 
 /**
  *  FlowLayout subclass that fully supports wrapping of components.
